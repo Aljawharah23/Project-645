@@ -80,6 +80,8 @@ grouped_reports = group_reports_with_duplicates(duplicates_file, bug_reports)
 train_reports, test_reports = split_data(bug_reports, grouped_reports)
 
 # Save split data
-save_to_json(train_reports, '/home/aalmuhana/Desktop/replication_package/outputs/primary_80_reports.json')
-save_to_json(test_reports, '/home/aalmuhana/Desktop/replication_package/outputs/secondary_20_reports.json')
+save_to_json(train_reports, '/home/aalmuhana/Desktop/replication_package/outputs/Splitted_Bug_Reports_20_80/accumulo_primary_80_reports.json')
+save_to_json(test_reports, '/home/aalmuhana/Desktop/replication_package/outputs/Splitted_Bug_Reports_20_80/accumulo_secondary_20_reports.json')
+
+
 

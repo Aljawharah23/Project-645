@@ -2,6 +2,7 @@ import json
 import random
 
 # Load Bug Reports
+
 def load_bug_reports(file_path):
     bug_reports = {}
     with open(file_path, 'r') as file:

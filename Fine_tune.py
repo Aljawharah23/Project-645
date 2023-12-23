@@ -6,6 +6,7 @@ from sentence_transformers import SentenceTransformer, InputExample, losses
 from torch.utils.data import DataLoader
 import random
 
+
 # Function to read JSON objects from a file
 def read_json_objects(file_path):
     reports = []

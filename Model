@@ -8,7 +8,7 @@ model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Function to read multiple JSON objects from a file as strings
 def read_json_objects_as_strings(file_path):
-    json_strings = []
+    json_strings = [] 
     with open(file_path, 'r') as file:
         for line in file:
             json_strings.append(line.strip())

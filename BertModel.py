@@ -191,7 +191,7 @@ with open(relevance_output_file_path, 'w') as file:
 
 print(f"Relevance lists saved to {relevance_output_file_path}")
 
-#  output file path
+#  output file path 
 output_file_path = '/home/aalmuhana/Desktop/replication_package/outputs/Rankings_lists_output/accumulo_Ranking_output.txt' 
 
 # Save the similarity rankings to the output file
